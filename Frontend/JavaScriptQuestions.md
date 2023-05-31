@@ -12,7 +12,10 @@ Prototypal inheritance in JavaScript allows objects to inherit properties and be
 ### What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
 
 `null`: It is a value assigned to a variable explicitly to indicate the absence of an object or empty value. It is a valid value in JavaScript and needs to be assigned explicitly.
+
 `undefined`: It indicates that a variable has been declared but has not been assigned a value. It is the default value of variables that are declared but not initialized. It is a built-in value in JavaScript.
+
 `undeclared`: It refers to a variable that has been referenced without being declared using the var, let, or const keyword. It results in a ReferenceError when trying to access an undeclared variable.
+
 In summary, `null` is an assigned value indicating the absence of an object, `undefined` is the default value for uninitialized variables, and `undeclared` variables are those that have not been declared at all.
 
