@@ -1,14 +1,21 @@
 # Common JavaScript Interview Questions
 
+## Table of Contents
+
+- [What is event delegation?](#what-is-event-delegation?)
+- [Describe event bubbling](#describe-event-bubbling.)
+- [Explain how prototypal inheritance works](#explain-how-prototypal-inheritance-works)
+- [What's the difference between a variable that is: `null`, `undefined` or `undeclared`?](#what's-the-difference-between-a-variable-that-is:-`null`,-`undefined`-or-`undeclared`?)
+
 ### What is event delegation?
 
 Event delegation in JavaScript is a technique where you attach a single event handler to a parent element instead of individual handlers to its child elements. The event "bubbles" up from the child to the parent, triggering the handler. It helps handle events efficiently, especially for dynamic or numerous elements, reducing memory usage and improving performance.
 
-### Describe event bubbling.
+### Describe event bubbling
 
 Event bubbling is a mechanism in JavaScript where an event triggered on a specific element will also trigger the same event on its parent elements, propagating upwards through the DOM tree. During event bubbling, the event starts from the innermost element and propagates through its ancestors up to the root of the document. This allows parent elements to "listen" and potentially handle the event even if the event was initially triggered on a nested child element.
 
-### Explain how prototypal inheritance works.
+### Explain how prototypal inheritance works
 
 Prototypal inheritance in JavaScript allows objects to inherit properties and behavior from other objects. Each object has an internal `Prototype` link that points to its prototype object. When accessing a property or method on an object, JavaScript looks for it in the object itself, and if not found, it continues searching up the prototype chain until the property is found or until it reaches the end of the chain (null prototype). This mechanism promotes code reuse and enables objects to share common functionality.
 
@@ -50,7 +57,7 @@ Host objects are provided by the environment (e.g., web browser) and are not def
 
 The notable difference between `call` and `apply` lies in how the arguments are passed to the function. With call, the arguments are passed individually, while with apply, they are passed as an array or array-like object.
 
-### Explain `Function.prototype.bind`.
+### Explain `Function.prototype.bind`
 
 `Function.prototype.bind` creates a new function with a specified this value and partially applied arguments, allowing for deferred execution and convenient customization of function invocation.
 
@@ -58,7 +65,7 @@ The notable difference between `call` and `apply` lies in how the arguments are 
 
 Feature detection is a reliable technique that directly tests for the presence of specific features, while feature inference makes assumptions based on related features. Using the UA string involves extracting information from the client's browser and operating system, but it can be less accurate and prone to manipulation.
 
-### Explain "hoisting".
+### Explain "hoisting"
 
 Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and invoke functions before they are actually declared in the code. However, only the declarations are hoisted, not the initializations or assignments. It's important to note that hoisting applies to both variables declared with `var` and functions declared with the `function` keyword.
 
@@ -76,7 +83,7 @@ While extending built-in JavaScript objects can provide convenience and code reu
 
 `==` is an equality operator that performs type coercion, allowing comparison between values of different types by converting them to a common type. On the other hand, `===` is a strict equality operator that compares values without type coercion, requiring both the value and the type to be the same for the comparison to be true.
 
-### Explain the same-origin policy with regards to JavaScript.
+### Explain the same-origin policy with regards to JavaScript
 
 The same-origin policy is a security feature in web browsers that restricts JavaScript code from accessing resources (such as data or methods) on a different domain, port, or protocol. It ensures that scripts on one origin (combination of domain, port, and protocol) cannot access or interact with content from another origin. This policy helps prevent cross-site scripting (XSS) attacks and protects user data and privacy by enforcing a boundary between different origins.
 
@@ -88,7 +95,7 @@ Strict mode offers benefits such as improved error handling, cleaner code, enhan
 
 Using a language that compiles to JavaScript can provide enhanced language features, improved productivity, cross-platform compatibility, and performance optimizations. However, it may come with a learning curve, debugging limitations, compatibility challenges, and increased build complexity.
 
-### Explain the difference between mutable and immutable objects.
+### Explain the difference between mutable and immutable objects
 
 Mutable objects: Mutable objects are objects whose state can be changed after they are created. This means that properties and values of mutable objects can be modified, added, or removed throughout the program execution.
 
@@ -98,7 +105,7 @@ Immutable objects: Immutable objects, on the other hand, are objects whose state
 
 Immutability offers benefits such as predictability, simplified code, thread safety, and potential performance optimizations. However, it can introduce memory overhead, performance impact, and object creation overhead.
 
-### Explain the difference between synchronous and asynchronous functions.
+### Explain the difference between synchronous and asynchronous functions
 
 The key difference between synchronous and asynchronous functions is how they handle the flow of execution. Synchronous functions execute sequentially, while asynchronous functions initiate tasks and continue with other operations without waiting for the task to finish.
 
@@ -118,7 +125,7 @@ A higher-order function is a function that takes one or more functions as argume
 
 A promise is an object in JavaScript that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. It is a way to handle asynchronous operations in a more organized and manageable manner.
 
-### Discuss how you might use Object Oriented Programming principles when coding with JavaScript.
+### Discuss how you might use Object Oriented Programming principles when coding with JavaScript
 
 Object-Oriented Programming (OOP) principles can be applied in JavaScript to achieve code organization, reusability, and maintainability. Here's how you might use OOP principles in JavaScript:
 
