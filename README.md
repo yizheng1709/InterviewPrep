@@ -1,4 +1,4 @@
-# InterviewQuestions
+# Interview Prep
 
 ## Personal Study Guides
 - [JavaScript](Frontend/JavaScriptQuestions.md)
