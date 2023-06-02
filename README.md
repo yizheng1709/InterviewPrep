@@ -1,4 +1,7 @@
 # InterviewQuestions
-Personal Study Guide
 
-- [JavaScript](Frontend/JavaScriptQuestions.md)
+## Personal Study Guides
+- - [JavaScript](Frontend/JavaScriptQuestions.md)
+
+## Additional Resources
+- [Great Frontend](https://www.greatfrontend.com/)
