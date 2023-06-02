@@ -10,9 +10,24 @@
 - [Can you describe the main difference between the `Array.forEach()` loop and `Array.map()` methods and why you would pick one versus the other?](#can-you-describe-the-main-difference-between-the-arrayforeach-loop-and-arraymap-methods-and-why-you-would-pick-one-versus-the-other)
 - [What's a typical use case for anonymous functions?](#what-is-a-typical-use-case-for-anonymous-functions)
 - [What's the difference between host objects and native objects?](#what-is-the-difference-between-host-objects-and-native-objects)
-- []()
-- []()
-- []()
+- [Can you explain what Function.call and Function.apply do?](#can-you-explain-what-functioncall-and-functionapply-do)
+- [Explain Function.prototype.bind](#explain-functionprototypebind)
+- [What is the difference between feature detection, feature inference, and using the UA string?](#what-is-the-difference-between-feature-detection-feature-inference-and-using-the-ua-string)
+- [Explain "hoisting"](#explain-hoisting)
+- [What is the difference between an "attribute" and a "property"?](#what-is-the-difference-between-an-attribute-and-a-property)
+- [What are the pros and cons of extending built-in JavaScript objects?](#what-are-the-pros-and-cons-of-extending-built-in-javascript-objects)
+- [What is the difference between == and ===?](#what-is-the-difference-between--and-)
+- [Explain the same-origin policy with regards to JavaScript](#explain-the-same-origin-policy-with-regards-to-javascript)
+- [What is strict mode? What are some of the advantages/disadvantages of using it?](#what-is-strict-mode-what-are-some-of-the-advantagesdisadvantages-of-using-it)
+- [What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?](#what-are-some-of-the-advantagesdisadvantages-of-writing-javascript-code-in-a-language-that-compiles-to-javascript)
+- [Explain the difference between mutable and immutable objects](#explain-the-difference-between-mutable-and-immutable-objects)
+- [What are the pros and cons of immutability?](#what-are-the-pros-and-cons-of-immutability)
+- [Explain the difference between synchronous and asynchronous functions](#explain-the-difference-between-synchronous-and-asynchronous-functions)
+- [What is event loop? What is the difference between call stack and task queue?](#what-is-event-loop-what-is-the-difference-between-call-stack-and-task-queue)
+- [What are the differences between variables created using let, var or const?](#what-are-the-differences-between-variables-created-using-let-var-or-const)
+- [What is the definition of a higher-order function?](#what-is-the-definition-of-a-higher-order-function)
+- [What is a Promise?](#what-is-a-promise)
+- [Discuss how you might use Object Oriented Programming principles when coding with JavaScript](#discuss-how-you-might-use-object-oriented-programming-principles-when-coding-with-javascript)
 
 ## What is event delegation?
 
@@ -64,7 +79,7 @@ Host objects are provided by the environment (e.g., web browser) and are not def
 
 The notable difference between `call` and `apply` lies in how the arguments are passed to the function. With call, the arguments are passed individually, while with apply, they are passed as an array or array-like object.
 
-## Explain `Function.prototype.bind`.
+## Explain `Function.prototype.bind`
 
 `Function.prototype.bind` creates a new function with a specified this value and partially applied arguments, allowing for deferred execution and convenient customization of function invocation.
 
@@ -76,7 +91,7 @@ Feature detection is a reliable technique that directly tests for the presence o
 
 Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and invoke functions before they are actually declared in the code. However, only the declarations are hoisted, not the initializations or assignments. It's important to note that hoisting applies to both variables declared with `var` and functions declared with the `function` keyword.
 
-## What's the difference between an "attribute" and a "property"?
+## What is the difference between an "attribute" and a "property"?
 
 Attribute: An attribute is a value specified in HTML markup and defines initial or additional information about an HTML element. It is defined in the HTML source code and accessed using methods like `getAttribute()`.
 
