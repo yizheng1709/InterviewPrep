@@ -5,3 +5,4 @@
 
 ## Additional Resources
 - [Great Frontend](https://www.greatfrontend.com/)
+- [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
