@@ -2,6 +2,7 @@
 
 ## Personal Study Guides
 - [JavaScript](Frontend/JavaScriptQuestions.md)
+- [Django](Backend/DjangoQuestions.md)
 
 ## Additional Resources
 - [Great Frontend](https://www.greatfrontend.com/)
