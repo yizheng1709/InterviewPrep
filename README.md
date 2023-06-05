@@ -1,10 +1,10 @@
 # Interview Prep
 
 ## Personal Study Guides
-- [JavaScript](Frontend/JavaScriptQuestions.md)
 - [Django](Backend/DjangoQuestions.md)
+- [JavaScript](Frontend/JavaScriptQuestions.md)
 
 ## Additional Resources
-- [Great Frontend](https://www.greatfrontend.com/)
 - [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
+- [Great Frontend](https://www.greatfrontend.com/)
 - [Roadmaps](https://roadmap.sh/roadmaps) - Good for reviewing major concepts
