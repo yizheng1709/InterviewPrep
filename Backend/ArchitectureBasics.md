@@ -8,19 +8,19 @@ I didn't think it would make sense to include a lot of technical talk when I am 
 ## Table of Contents
 
 - [Monolithic Architecture](#monolithic-architecture)
--- [Example of a Monolithic Architecture](#example-of-a-monolithic-architecture)
+  - [Example of a Monolithic Architecture](#example-of-a-monolithic-architecture)
 - [Microservices Architecture](#microservices-architecture)
--- [Example of a Microservices Architecture](#example-of-a-microservices-architecture)
+  - [Example of a Microservices Architecture](#example-of-a-microservices-architecture)
 - [Service-Oriented Architecture (SOA)](#service-oriented-architecture-soa)
--- [Example of a Service-Oriented Architecture](#example-of-a-service-oriented-architecture)
+  - [Example of a Service-Oriented Architecture](#example-of-a-service-oriented-architecture)
 - [Event-Driven Architecture (EDA)](#event-driven-architecture-eda)
--- [Example of an Event-Driven Architecture](#example-of-an-event-driven-architecture)
+  - [Example of an Event-Driven Architecture](#example-of-an-event-driven-architecture)
 - [Layered Architecture](#layered-architecture)
--- [Example of a Layered Architecture](#example-of-a-layered-architecture)
+  - [Example of a Layered Architecture](#example-of-a-layered-architecture)
 - [Domain-Driven Design (DDD)](#domain-driven-design-ddd)
--- [Example of a Domain-Driven Design](#example-of-a-domain-driven-design)
+  - [Example of a Domain-Driven Design](#example-of-a-domain-driven-design)
 - [Serverless Architecture](#serverless-architecture)
--- [Example of a Serverless Architecture](#example-of-a-serverless-architecture)
+  - [Example of a Serverless Architecture](#example-of-a-serverless-architecture)
 
 ## Monolithic Architecture
 
