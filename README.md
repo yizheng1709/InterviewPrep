@@ -2,9 +2,10 @@
 
 ## Personal Study Guides
 - Backend
-- - [Django](Backend/DjangoQuestions.md)
+ - [Django](Backend/DjangoQuestions.md)
+ - [Understanding Different Software Architectures - For Bootcamp Grads](Backend/ArchitectureBasics.md)
 - Frontend
-- - [JavaScript](Frontend/JavaScriptQuestions.md)
+ - [JavaScript](Frontend/JavaScriptQuestions.md)
 
 ## Additional Resources
 - [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
