@@ -1,8 +1,10 @@
 # Interview Prep
 
 ## Personal Study Guides
-- [Django](Backend/DjangoQuestions.md)
-- [JavaScript](Frontend/JavaScriptQuestions.md)
+- Backend
+-- [Django](Backend/DjangoQuestions.md)
+- Frontend
+-- [JavaScript](Frontend/JavaScriptQuestions.md)
 
 ## Additional Resources
 - [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
