@@ -11,3 +11,4 @@
 - [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
 - [Great Frontend](https://www.greatfrontend.com/)
 - [Roadmaps](https://roadmap.sh/roadmaps) - Good for reviewing major concepts
+- [ByteByteGo](https://blog.bytebytego.com/) - Weekly bite-size system design topics
