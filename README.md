@@ -6,6 +6,8 @@
   - [Understanding Different Software Architectures - For Bootcamp Grads](Backend/ArchitectureBasics.md)
 - Frontend
   - [JavaScript](Frontend/JavaScriptQuestions.md)
+- [Tech Career Growth Learning Resources and Roadmap](Tech-Career-Growth-Learning-Resources-And-Roadmaps/)
+  - See the original repo [here](https://github.com/Gear61/Tech-Career-Growth-Learning-Resources-And-Roadmaps#-interviewing) 
 
 ## Additional Resources
 - [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
