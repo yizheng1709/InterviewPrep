@@ -11,6 +11,9 @@
 
 ## Additional Resources
 - [Frontend Interview Handbook](https://www.frontendinterviewhandbook.com/)
+- [Codecademy Docs](https://www.codecademy.com/resources/docs)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [W3](https://www.w3.org/TR/CSS2/selector.html)
 - [Great Frontend](https://www.greatfrontend.com/)
 - [Roadmaps](https://roadmap.sh/roadmaps) - Good for reviewing major concepts
 - [ByteByteGo](https://blog.bytebytego.com/) - Weekly bite-size system design topics
